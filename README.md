@@ -1,5 +1,5 @@
 # Docker Quake 2 with Lithium Mod
-Docker image for an easy Quake 2 Lithium server. All you need to do is pull/build the image with a config file name as argument and you can start playing Quake 2 with Lithium Mod. 
+Docker image for an easy Quake 2 Lithium server based on Ubuntu. All you need to do is pull/build the image with a config file name as argument and you can start playing Quake 2 with Lithium Mod. 
 
 It is based on [Lithium Mod](https://quake2lithium.github.io/), [Q2Pro Server](https://github.com/skullernet/q2pro) and [R1Q2 Anti cheat](https://github.com/Slipyx/r1q2), so it's recommended a modern Quake 2 client such Q2Pro.
 
