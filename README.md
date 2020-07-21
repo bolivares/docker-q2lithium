@@ -6,7 +6,7 @@ It is based on [Lithium Mod](https://quake2lithium.github.io/), [Q2Pro Server](h
 ## How To Run
 Once you have a working image all you have to do is run
 ```
- docker run -it -p 27910:27910/udp  -e CONFIGNAME="onlyrailgun.cfg" q2lithiumserver
+ docker run -it -p 27910:27910/udp  -e CONFIGNAME="onlyrailgun.cfg"  bjolivar/quake2lithium
 ```
 `CONFIGNAME` is a parameter for the config name file. The Image comes with 3 custom configurations but of course you can create as many as you want
 1. **onlyrailgun.cfg** : Is for Deathmatch with only railgun, a lot of ammo,  hook and runes.
