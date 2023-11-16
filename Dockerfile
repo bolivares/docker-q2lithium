@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:bullseye-slim
 RUN useradd -m -s /bin/bash quake2
 COPY ./init.sh /usr/src/init_script.sh
 COPY ./quake2 /home/quake2
